@@ -231,9 +231,4 @@ To extend this to full Structure-from-Motion:
 - OpenCV Documentation: [Camera Calibration and 3D Reconstruction](https://docs.opencv.org/master/d9/d0c/group__calib3d.html)
 - Lowe, "Distinctive Image Features from Scale-Invariant Keypoints"
 
-## See Also
-
-- `sfm_mvs.py`: Full SfM-MVS pipeline (simplified)
-- `run_colmap.py`: COLMAP integration script
-- `visualize_simple.py`: Point cloud visualization
 
