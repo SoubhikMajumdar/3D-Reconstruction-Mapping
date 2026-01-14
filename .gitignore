@@ -12,9 +12,12 @@ __pycache__/
 # Dataset and output directories
 dataset/
 output/
+output_mvs_dense/
 *.ply
 *.txt
 !requirements.txt
+!output_multiview/
+!output_bundle_adjusted/
 
 # IDE
 .vscode/
