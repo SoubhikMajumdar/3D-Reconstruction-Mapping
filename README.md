@@ -23,6 +23,25 @@ This project implements a complete 3D reconstruction pipeline that processes mul
 - Visualization tools for sparse and dense point clouds
 - Point cloud export and comparison utilities
 
+## Dataset
+
+This project uses the South Building dataset. The dataset should be placed in the `dataset/south-building/images/` directory. The dataset contains 128 images of a building facade captured from different viewpoints.
+
+Dataset structure:
+```
+dataset/
+  south-building/
+    images/
+      P1180141.JPG
+      P1180142.JPG
+      ...
+      P1180347.JPG
+```
+
+The images are sequential captures of the same building scene from different camera positions, suitable for Structure-from-Motion and Multi-View Stereo reconstruction.
+
+Note: You can use any dataset with multiple overlapping images. Place your images in a directory and specify the path using the `--dataset` or `--images` arguments.
+
 ## Requirements
 
 - Python 3.8+
